@@ -1,0 +1,20 @@
+{
+  "name": "tjournal/tjournal",
+  "authors": [
+    {
+      "name": "Ilya Chekalsky",
+      "email": "ilya@chekalsky.com",
+      "homepage": "http://chekalsky.com/"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.19",
+    "fennb/phirehose": "1.0.1",
+    "firehed/processmanager": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "tj\\": "."
+    }
+  }
+}
